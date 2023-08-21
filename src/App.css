@@ -1,0 +1,52 @@
+.app {
+  text-align: center;
+}
+
+.app__header{
+  background-color: lightgray;
+  border-bottom: 1px solid grey;
+  margin-bottom: 2%;
+}
+
+.app__header > img {
+  width: 200px;
+  mix-blend-mode: color-burn; 
+  margin-bottom: -15px;
+}
+.app__header > h2 > span {
+  font-weight: 900;
+  color: rgb(0, 109, 159);
+}
+
+.app__form {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-color: #e9e9eb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px 5px 20px 20px;
+}
+
+.app__formControl {
+  display: flex !important;
+  flex-direction: row !important; 
+  flex: 1; /* Take all available space */
+}
+
+.app__input {
+  flex: 1; /* Take up all available width */
+  padding: 10px;
+  border: none;
+}
+
+.app__iconButton {
+  flex: 0; /* Take minimum width necessary */
+  padding: 10px;
+  margin-left: 10px; /* Add spacing between input and button */
+}

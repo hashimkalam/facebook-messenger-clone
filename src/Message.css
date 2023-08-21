@@ -1,0 +1,19 @@
+.message{
+    padding: 5px 5px 0px;
+    border: 1px solid lightgray;
+    border-radius: 35px !important;
+    margin: 10px;
+    width: fit-content;
+    background-color: #e9e9eb !important;
+}
+.message:hover {
+    box-shadow: 2px 4px 5px 2px lightgrey;
+}
+
+.message__user {
+    margin-left: auto;
+    border: 1px solid #0061c9 ;
+    color: #fff;
+    text-align: right !important;
+    background: linear-gradient(rgb(255, 143, 178) 0%, rgb(167, 151, 255) 50%, rgb(0, 229, 255) 100%) !important;
+}
